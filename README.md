@@ -9,7 +9,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 # 免责声明
 
-本免责声明适用于 GitHub 上的 “epeius” 项目（以下简称“本项目”），项目链接为：https://github.com/cmliu/epeius 。
+本免责声明适用于 GitHub 上的 “epeius” 项目（以下简称“本项目”），项目链接为：https://github.com/fgfobdpqjs/epeius 。
 
 ### 用途
 本项目仅供教育、研究和安全测试目的而设计和开发。旨在为安全研究人员、学术界人士及技术爱好者提供一个探索和实践网络通信技术的工具。
@@ -18,7 +18,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 在下载和使用本项目代码时，必须遵守使用者所适用的法律和规定。使用者有责任确保其行为符合所在地区的法律框架、规章制度及其他相关规定。
 
 ### 免责
-1. 作为本项目的 **二次开发作者**（以下简称“作者”），我 **cmliu** 强调本项目仅应用于合法、道德和教育目的。
+1. 作为本项目的 **三次开发作者**（以下简称“作者”），我 **fgfobdpqjs** 强调本项目仅应用于合法、道德和教育目的。
 2. 作者不认可、不支持亦不鼓励任何形式的非法使用。如果发现本项目被用于任何非法或不道德的活动，作者将对此强烈谴责。
 3. 作者对任何人或组织利用本项目代码从事的任何非法活动不承担责任。使用本项目代码所产生的任何后果，均由使用者自行承担。
 4. 作者不对使用本项目代码可能引起的任何直接或间接损害负责。
@@ -30,12 +30,12 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 ## 风险提示
 - 通过提交虚假的节点配置给订阅服务，避免节点配置信息泄露。
-- 另外，您也可以选择自行部署 [WorkerVless2sub 订阅生成服务](https://github.com/cmliu/WorkerVless2sub)，这样既可以利用订阅生成器的便利。
+- 另外，您也可以选择自行部署 [WorkerVless2sub 订阅生成服务](https://github.com/fgfobdpqjs/WorkerVless2sub)，这样既可以利用订阅生成器的便利。
 
 ## Workers 部署方法 [视频教程](https://www.youtube.com/watch?v=MBlAqYajVSY&t=169s)
 1. 部署 CF Worker：
    - 在 CF Worker 控制台中创建一个新的 Worker。
-   - 将 [worker.js](https://github.com/cmliu/epeius/blob/main/_worker.js) 的内容粘贴到 Worker 编辑器中。
+   - 将 [worker.js](https://github.com/fgfobdpqjs/epeius/blob/main/_worker.js) 的内容粘贴到 Worker 编辑器中。
    - 将第 3 行 `password` 修改成你自己的 **密码**
 
 2. 添加优选线路:
@@ -63,15 +63,15 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 4. 给 workers绑定 自定义域： 
    - 在 workers控制台的 `触发器`选项卡，下方点击 `添加自定义域`。
-   - 填入你已转入 CF 域名解析服务的次级域名，例如:`vless.google.com`后 点击`添加自定义域`，等待证书生效即可。
+   - 填入你已转入 CF 域名解析服务的次级域名，例如:`vless.fgfo.com.mp`后 点击`添加自定义域`，等待证书生效即可。
 
 ## Pages 上传 部署方法
 1. 部署 CF Pages：
-   - 下载 [main.zip](https://github.com/cmliu/epeius/archive/refs/heads/main.zip) 文件，并点上 Star !!!
-   - 在 CF Pages 控制台中选择 `上传资产`后，为你的项目取名后点击 `创建项目`，然后上传你下载好的 [main.zip](https://github.com/cmliu/epeius/archive/refs/heads/main.zip) 文件后点击 `部署站点`。
+   - 下载 [main.zip](https://github.com/fgfobdpqjs/epeius/archive/refs/heads/main.zip) 文件，并点上 Star !!!
+   - 在 CF Pages 控制台中选择 `上传资产`后，为你的项目取名后点击 `创建项目`，然后上传你下载好的 [main.zip](https://github.com/fgfobdpqjs/epeius/archive/refs/heads/main.zip) 文件后点击 `部署站点`。
    - 部署完成后点击 `继续处理站点` 后，选择 `设置` > `环境变量` > **制作**为生产环境定义变量 > `添加变量`。
      变量名称填写**PASSWORD**，值则为你的密码，后点击 `保存`即可。
-   - 返回 `部署` 选项卡，在右下角点击 `创建新部署` 后，重新上传 [main.zip](https://github.com/cmliu/epeius/archive/refs/heads/main.zip) 文件后点击 `保存并部署` 即可。
+   - 返回 `部署` 选项卡，在右下角点击 `创建新部署` 后，重新上传 [main.zip](https://github.com/fgfobdpqjs/epeius/archive/refs/heads/main.zip) 文件后点击 `保存并部署` 即可。
 
 2. 添加优选线路:
  - 添加变量 `ADD` 本地静态的优选线路，若不带端口号 TLS默认端口为443，#号后为备注别名，例如：
@@ -89,17 +89,17 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 3. 访问订阅内容：
    - 访问 `https://[YOUR-PAGES-URL]/[PASSWORD]` 即可获取订阅内容。
-   - 例如 `https://epeius.pages.dev/auto` 就是你的通用自适应订阅地址。
-   - 例如 `https://epeius.pages.dev/auto?sub` Base64订阅格式，适用PassWall,SSR+等。
-   - 例如 `https://epeius.pages.dev/auto?clash` Clash订阅格式，适用OpenClash等。
-   - 例如 `https://epeius.pages.dev/auto?sb` singbox订阅格式，适用singbox等。
-   - 例如 `https://epeius.pages.dev/auto?surge` surge订阅格式，适用surge 4/5。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto` 就是你的通用自适应订阅地址。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?sub` Base64订阅格式，适用PassWall,SSR+等。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?clash` Clash订阅格式，适用OpenClash等。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?sb` singbox订阅格式，适用singbox等。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?surge` surge订阅格式，适用surge 4/5。
 
 4. 给 Pages绑定 CNAME自定义域：
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
-     您分配到的域名是 `fuck.cloudns.biz`，则添加自定义域填入 `lizi.fuck.cloudns.biz`即可；
-   - 按照 CF 的要求将返回你的域名DNS服务商，添加 该自定义域 `lizi`的 CNAME记录 `epeius.pages.dev` 后，点击 `激活域`即可。
+     您分配到的域名是 `fuck.cloudns.biz`，则添加自定义域填入 `lizi.fgfo.com.mp`即可；
+   - 按照 CF 的要求将返回你的域名DNS服务商，添加 该自定义域 `lizi`的 CNAME记录 `fgfobdpqjs.pages.dev` 后，点击 `激活域`即可。
 
 ## Pages GitHub 部署方法 [视频教程](https://www.youtube.com/watch?v=0Cd8uTNJj1Q&t=96s)
 1. 部署 CF Pages：
@@ -124,17 +124,17 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 3. 访问订阅内容：
    - 访问 `https://[YOUR-PAGES-URL]/[PASSWORD]` 即可获取订阅内容。
-   - 例如 `https://epeius.pages.dev/auto` 就是你的通用自适应订阅地址。
-   - 例如 `https://epeius.pages.dev/auto?sub` Base64订阅格式，适用PassWall,SSR+等。
-   - 例如 `https://epeius.pages.dev/auto?clash` Clash订阅格式，适用OpenClash等。
-   - 例如 `https://epeius.pages.dev/auto?sb` singbox订阅格式，适用singbox等。
-   - 例如 `https://epeius.pages.dev/auto?surge` surge订阅格式，适用surge 4/5。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto` 就是你的通用自适应订阅地址。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?sub` Base64订阅格式，适用PassWall,SSR+等。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?clash` Clash订阅格式，适用OpenClash等。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?sb` singbox订阅格式，适用singbox等。
+   - 例如 `https://fgfobdpqjs.pages.dev/auto?surge` surge订阅格式，适用surge 4/5。
 
 4. 给 Pages绑定 CNAME自定义域：
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
-     您分配到的域名是 `fuck.cloudns.biz`，则添加自定义域填入 `lizi.fuck.cloudns.biz`即可；
-   - 按照 CF 的要求将返回你的域名DNS服务商，添加 该自定义域 `lizi`的 CNAME记录 `epeius.pages.dev` 后，点击 `激活域`即可。
+     您分配到的域名是 `fgfo.com.mp`，则添加自定义域填入 `lizi.fgfo.com.mp`即可；
+   - 按照 CF 的要求将返回你的域名DNS服务商，添加 该自定义域 `lizi`的 CNAME记录 `fgfobdpqjs.pages.dev` 后，点击 `激活域`即可。
    
 ## 变量说明
 | 变量名 | 示例 | 备注 |
@@ -144,8 +144,8 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 | SOCKS5  | `user:password@127.0.0.1:1080` | 优先作为访问CFCDN站点的SOCKS5代理(支持多socks5, socks5之间使用`,`或`换行`作间隔) |
 | GO2SOCKS5  | `blog.cmliussss.com`,`*ip111.cn` | 设置`SOCKS5`变量之后，可设置强制使用socks5访问名单(`*`可作为通配符，`换行`作多元素间隔) |
 | ADD | `www.csgo.com:2087,icook.hk` | 本地优选域名/优选IP(支持多元素之间`,`或`换行`作间隔) |
-| ADDAPI | [https://raw.github.../addressesapi.txt](https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt) | 不解释, 懂得都懂 |
-| ADDCSV | [https://raw.github.../addressescsv.csv](https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv) | 不解释, 懂得都懂 |
+| ADDAPI | [https://raw.github.../addressesapi.txt](https://raw.githubusercontent.com/fgfobdpqjs/WorkerVless2sub/main/addressesapi.txt) | 不解释, 懂得都懂 |
+| ADDCSV | [https://raw.github.../addressescsv.csv](https://raw.githubusercontent.com/fgfobdpqjs/WorkerVless2sub/main/addressescsv.csv) | 不解释, 懂得都懂 |
 | DLS | `8` | `ADDCSV`测速结果满足速度下限 | 
 | TGTOKEN | `6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA` | 发送TG通知的机器人token | 
 | TGID | `6946912345` | 接收TG通知的账户数字ID | 
@@ -168,11 +168,11 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 ## 实用小技巧
 
 **该项目部署的订阅可通过添加`sub`键值快速更换优选订阅生成器！** 
-> 例如 `https://epeius.pages.dev/auto` 是你的通用自适应订阅地址
+> 例如 `https://fgfobdpqjs.pages.dev/auto` 是你的通用自适应订阅地址
 - 快速更换订阅器为`Trojan.fxxk.dedyn.io`的订阅地址
 
    ```url
-   https://epeius.pages.dev/auto?sub=Trojan.fxxk.dedyn.io
+   https://fgfobdpqjs.pages.dev/auto?sub=Trojan.fxxk.dedyn.io
    ```
 
 **该项目部署的节点可通过节点PATH(路径)的方式，使用指定的`PROXYIP`或`SOCKS5`！！！**
